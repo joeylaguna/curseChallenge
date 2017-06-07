@@ -1,9 +1,117 @@
+$font: 'Open Sans', sans-serif
+
 body
-  background-color: red
+  background-color: #090e11
+  color: #ffffff
+  font-family: $font
+  
+  .container
+    width: 1000px
+    margin: auto
+    padding-top: 3em
 
-.container
-  width: 1000px
-  margin: auto
+    .navBar
+      height: 60px
+      background-color: #1d1d1f
+      margin-bottom: 20px
+      border-bottom: 6px solid #2d3b48
 
-.navBar
-  height: 60px
+      .dropDownMenu:hover .dropdown 
+        display: block
+
+      .dropdown
+        display: none
+        position: absolute
+        z-index: 1
+
+        a 
+          display: block
+    
+    .header 
+      .socialIcons
+        float: right
+
+      .search
+        float: right
+
+        input 
+          height: 20px
+          border-radius: 3px
+          margin-left: 10px
+
+        button
+          height: 25px
+          background: #587fa8
+          border: none
+          border-radius: 2px
+          color: #fff
+          font-weight: 600
+          font-family: "Open Sans", sans-serif
+
+    .news
+      margin-bottom: 15px
+
+      .newsContent 
+        background-image: url("./../assets/news-bg.png")
+        font-size: 14px
+        color: #cfcfcf
+        padding: 10px
+        border: 1px solid #181b20
+      
+      .readMore
+        float: right
+
+    .talentCalculator
+      border: 1px solid #181b20
+      padding: 10px
+
+      .talentCalculatorHeader
+        width: 965px
+        height: 43px
+        border: 1px solid white
+        text-align: center
+        color: #ffffff
+        font-size: 25px
+        font-weight: 600
+      
+      .talentTree
+        padding-top: 50px
+        .talentRow
+          height: 100px
+        
+.twitter
+  background: url('./../assets/social-icons-sprite.png') no-repeat 1% 54.545%
+  width: 27px
+  height: 25px
+
+.facebook
+  background: url('./../assets/social-icons-sprite.png') no-repeat 47.296% 62.5%
+  width: 27px
+  height: 25px
+
+.youtube
+  background: url('./../assets/social-icons-sprite.png') no-repeat 99.188% 55.556%
+  width: 27px
+  height: 25px
+
+
+.newsHeader 
+  background-color: #1e1e1e
+  padding: 12px
+
+.newsTitle 
+  font-size: 20px
+  font-weight: 600
+  color: #ffffff
+
+.author
+  float: right
+  font-size: 12px
+  color: #bababa
+
+.name 
+  color: #6594c0
+
+.socialButton
+  background-color: #587fa8
+  border-radius: 3px
