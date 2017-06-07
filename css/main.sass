@@ -1,8 +1,12 @@
 $font: 'Open Sans', sans-serif
 
+html
+  height: 100%
+
 body
   background-color: #090e11
   color: #ffffff
+  height: 100%
   font-family: $font
   
   .container
@@ -64,6 +68,8 @@ body
     .talentCalculator
       border: 1px solid #181b20
       padding: 10px
+      background-image: url('./../assets/talent-calc-bg.png')
+      margin-bottom: 20px
 
       .talentCalculatorHeader
         width: 965px
@@ -78,6 +84,25 @@ body
         padding-top: 50px
         .talentRow
           height: 100px
+    .footer
+      background-color: #141517
+
+      ul
+        margin-left: -30px
+        a
+          display: inline
+          padding-right: 20px
+        a:after
+          content: " "
+          height: 16px
+          width: 1px
+          background: #aeaeae
+          position: absolute
+          margin-left: 10px
+          margin-top: 3px
+          margin-right: 10px
+        .liquids:after
+          display: none
         
 .twitter
   background: url('./../assets/social-icons-sprite.png') no-repeat 1% 54.545%
@@ -93,6 +118,47 @@ body
   background: url('./../assets/social-icons-sprite.png') no-repeat 99.188% 55.556%
   width: 27px
   height: 25px
+
+.talentOne
+  background: url(./../assets/talent-icons-sprite.png) no-repeat -2% -18.455%
+  width: 52px
+  height: 58px
+
+.talentTwo
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 13.5% -18.455%
+  width: 52px
+  height: 58px
+
+.talentThree
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 28% -18.455%
+  width: 52px
+  height: 58px
+
+
+.talentFour
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%
+  width: 52px
+  height: 58px
+
+.talentFive
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%
+  width: 52px
+  height: 58px
+
+.talentSix
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%
+  width: 52px
+  height: 58px
+
+.talentSeven
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%
+  width: 52px
+  height: 58px
+
+.talentEight
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%
+  width: 52px
+  height: 58px
 
 
 .newsHeader 

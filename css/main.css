@@ -1,6 +1,10 @@
+html {
+  height: 100%; }
+
 body {
   background-color: #090e11;
   color: #ffffff;
+  height: 100%;
   font-family: "Open Sans", sans-serif; }
   body .container {
     width: 1000px;
@@ -47,7 +51,9 @@ body {
         float: right; }
     body .container .talentCalculator {
       border: 1px solid #181b20;
-      padding: 10px; }
+      padding: 10px;
+      background-image: url("./../assets/talent-calc-bg.png");
+      margin-bottom: 20px; }
       body .container .talentCalculator .talentCalculatorHeader {
         width: 965px;
         height: 43px;
@@ -60,6 +66,24 @@ body {
         padding-top: 50px; }
         body .container .talentCalculator .talentTree .talentRow {
           height: 100px; }
+    body .container .footer {
+      background-color: #141517; }
+      body .container .footer ul {
+        margin-left: -30px; }
+        body .container .footer ul a {
+          display: inline;
+          padding-right: 20px; }
+        body .container .footer ul a:after {
+          content: " ";
+          height: 16px;
+          width: 1px;
+          background: #aeaeae;
+          position: absolute;
+          margin-left: 10px;
+          margin-top: 3px;
+          margin-right: 10px; }
+        body .container .footer ul .liquids:after {
+          display: none; }
 
 .twitter {
   background: url("./../assets/social-icons-sprite.png") no-repeat 1% 54.545%;
@@ -75,6 +99,46 @@ body {
   background: url("./../assets/social-icons-sprite.png") no-repeat 99.188% 55.556%;
   width: 27px;
   height: 25px; }
+
+.talentOne {
+  background: url(./../assets/talent-icons-sprite.png) no-repeat -2% -18.455%;
+  width: 52px;
+  height: 58px; }
+
+.talentTwo {
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 13.5% -18.455%;
+  width: 52px;
+  height: 58px; }
+
+.talentThree {
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 28% -18.455%;
+  width: 52px;
+  height: 58px; }
+
+.talentFour {
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%;
+  width: 52px;
+  height: 58px; }
+
+.talentFive {
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%;
+  width: 52px;
+  height: 58px; }
+
+.talentSix {
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%;
+  width: 52px;
+  height: 58px; }
+
+.talentSeven {
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%;
+  width: 52px;
+  height: 58px; }
+
+.talentEight {
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%;
+  width: 52px;
+  height: 58px; }
 
 .newsHeader {
   background-color: #1e1e1e;
