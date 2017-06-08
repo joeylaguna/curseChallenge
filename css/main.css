@@ -66,6 +66,12 @@ body {
         padding-top: 50px; }
         body .container .talentCalculator .talentTree .talentRow {
           height: 100px; }
+          body .container .talentCalculator .talentTree .talentRow .path {
+            height: 30px;
+            width: 90px;
+            display: inline-block;
+            margin-bottom: 9px;
+            background: red; }
     body .container .footer {
       background-color: #141517; }
       body .container .footer ul {
@@ -101,44 +107,36 @@ body {
   height: 25px; }
 
 .talentOne {
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 0% -18.455%;
-  width: 52px;
-  height: 58px; }
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 0% 101.545%;
+  width: 52px; }
 
 .talentTwo {
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 13.5% -18.455%;
-  width: 52px;
-  height: 58px; }
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 14% 101.545%;
+  width: 52px; }
 
 .talentThree {
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 28% -18.455%;
-  width: 52px;
-  height: 58px; }
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 28% 101.545%;
+  width: 52px; }
 
 .talentFour {
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%;
-  width: 52px;
-  height: 58px; }
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 42% 101.545%;
+  width: 52px; }
 
 .talentFive {
   background: url(./../assets/talent-icons-sprite.png) no-repeat 56.9% -18.455%;
-  width: 52px;
-  height: 58px; }
+  width: 52px; }
 
 .talentSix {
   background: url(./../assets/talent-icons-sprite.png) no-repeat 71.5% -18.455%;
-  width: 52px;
-  height: 58px; }
+  width: 52px; }
 
 .talentSeven {
   background: url(./../assets/talent-icons-sprite.png) no-repeat 86% -18.455%;
-  width: 52px;
-  height: 58px; }
+  width: 52px; }
 
 .talentEight {
   background: url(./../assets/talent-icons-sprite.png) no-repeat 100.5% -18.455%;
-  width: 52px;
-  height: 58px; }
+  width: 52px; }
 
 .newsHeader {
   background-color: #1e1e1e;

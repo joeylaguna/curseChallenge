@@ -45,7 +45,6 @@ window.onload = () => {
   //Attach listener to each talent to check for clicks
   talentTrees[0].childNodes.forEach((value) => {
     if (value.className !== 'path') {
-      let self = this;
       value.addEventListener('click', handler, false);
       value.addEventListener('contextmenu', handler, false);
     }
