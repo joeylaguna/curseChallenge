@@ -101,7 +101,7 @@ body {
   height: 25px; }
 
 .talentOne {
-  background: url(./../assets/talent-icons-sprite.png) no-repeat -2% -18.455%;
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 0% -18.455%;
   width: 52px;
   height: 58px; }
 
@@ -121,22 +121,22 @@ body {
   height: 58px; }
 
 .talentFive {
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%;
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 56.9% -18.455%;
   width: 52px;
   height: 58px; }
 
 .talentSix {
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%;
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 71.5% -18.455%;
   width: 52px;
   height: 58px; }
 
 .talentSeven {
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%;
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 86% -18.455%;
   width: 52px;
   height: 58px; }
 
 .talentEight {
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 42.5% -18.455%;
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 100.5% -18.455%;
   width: 52px;
   height: 58px; }
 
