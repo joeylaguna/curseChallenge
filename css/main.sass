@@ -74,7 +74,6 @@ body
       .talentCalculatorHeader
         width: 965px
         height: 43px
-        border: 1px solid white
         text-align: center
         color: #ffffff
         font-size: 25px
@@ -84,14 +83,26 @@ body
         padding-top: 50px
         .talentRow
           height: 100px
+          .rowTitle
+            display: inline-block
+          img
+            border: 4px solid transparent
+            -moz-border-image: -moz-linear-gradient(top, #4b4b4b 50%, #393939 25%, #494949 100%)
+            -webkit-border-image: -webkit-linear-gradient(top, #4b4b4b 50%, #393939 25%, #494949 100%)
+            border-image: linear-gradient(to bottom, #4b4b4b 50%, #393939 25%, #494949 100%)
+            border-image-slice: 1 !important
+            margin-bottom: -22px
           .path 
-            height: 30px
+            height: 12px
             width: 90px
             display: inline-block
-            margin-bottom: 9px
-            background: red
+            background: #1c1d1f
+            border-bottom: 1px solid #272729
+            border-top: 1px solid #272729
+            
     .footer
       background-color: #141517
+      border-top: 1px solid #181b20
 
       ul
         margin-left: -30px
@@ -126,37 +137,70 @@ body
   height: 25px
 
 .talentOne
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 0% 101.545%
-  width: 52px
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 
+  background-position: bottom 0px right -350px
+  width: 50px
+  margin-left: 35px
+
+.talentOne:hover
+  background-position: bottom -50px right -350px
 
 .talentTwo
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 14% 101.545%
-  width: 52px
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 
+  background-position: bottom 0px right -300px
+  width: 50px
+
+.talentTwo:hover
+  background-position: bottom -50px right -300px
 
 .talentThree
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 28% 101.545%
-  width: 52px
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 
+  background-position: bottom 0px right -250px
+  width: 50px
+
+.talentThree:hover
+  background-position: bottom -50px right -250px
 
 .talentFour
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 42% 101.545%
-  width: 52px
+  background: url(./../assets/talent-icons-sprite.png) no-repeat
+  background-position: bottom 0px right -200px
+  width: 50px
+
+.talentFour:hover
+  background-position: bottom -50px right -200px
 
 .talentFive
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 56.9% -18.455%
-  width: 52px
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 
+  background-position: bottom 0px right -150px
+  width: 50px
+  margin-left: 35px
+
+.talentFive:hover
+  background-position: bottom -50px right -150px
 
 .talentSix
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 71.5% -18.455%
-  width: 52px
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 
+  background-position: bottom 0px right -100px
+  width: 50px
+
+.talentSix:hover
+  background-position: bottom -50px right -100px  
 
 .talentSeven
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 86% -18.455%
-  width: 52px
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 
+  background-position: bottom 0px right -50px
+  width: 50px
+
+.talentSeven:hover
+  background-position: bottom -50px right -50px
 
 .talentEight
-  background: url(./../assets/talent-icons-sprite.png) no-repeat 100.5% -18.455%
-  width: 52px
+  background: url(./../assets/talent-icons-sprite.png) no-repeat 
+  background-position: bottom 0px right 0px
+  width: 50px
 
+.talentEight:hover
+  background-position: bottom -50px right 0px
 
 .newsHeader 
   background-color: #1e1e1e
