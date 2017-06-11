@@ -23,68 +23,82 @@
         </span>
       </div>
       <div class='navBar'>
-        <span>Snowflakes</span>
-        <span>Magnets</span>
-        <span class='dropDownMenu'>Liquids
-          <div class='dropdown'>
-            <a>Flammable</a>
-            <a>Combustable</a>
-            <a>Flambustable</a>
-         </div> 
-        </span>
-        
+        <ul class='navTabs'>
+          <li><a href='#'><img class='snowFlake' src='assets/Transparent.gif'></img>Snowflakes</a>
+          <li><a href='#'><img class='magnets' src='assets/Transparent.gif'></img>Magnets</a>
+          <li><a href='#'><img class='liquids' src='assets/Transparent.gif'></img>Liquids</a>
+        </ul>
       </div>
       <div class='news'>
         <div class='newsHeader'>
           <span class='newsTitle'>Important News Items</span>
           <span class='author'>by <span class='name'>Test</span> at 12:15pm</span>
         </div>
-        
         <div class='newsContent'>
-          <p>Aw, I wanted to be ginger! I've never been ginger! And you, Rose Tyler! Fat lot of good you were! You gave up on me! Ooh, that's rude. Is that the sort of man I am now? Am I rude? Rude and not ginger. I don't want to go. People assume that time is a strict progression of cause-and-effect... but actually, from a non-linear, non-subjective viewpoint, it's more like a big ball of wibbly-wobbly... timey-wimey... stuff. I'll tell you what, then: don't...step on any butterflies. What have butterflies ever done to you?</p>
-          <p>Oh, yes. Harmless is just the word: that's why I like it! Doesn't kill, doesn't wound, doesn't maim. But I'll tell you what it does do: it is very good at opening doors! Yeah? Well I'm the Lord of Time. Sweet, maybe... Passionate, I suppose... But don't ever mistake that for nice. What? What?! WHAT?! Don't you think she looks tired? There was a war. A Time War. The Last Great Time War. My people fought a race called the Daleks, for the sake of all creation. And they lost. We lost. Everyone lost. They're all gone now. My family. My friends. Even that sky.</p>
+          <div class='grid'>
+            <div class='col'>
+              <p>Aw, I wanted to be ginger! I've never been ginger! And you, Rose Tyler! Fat lot of good you were! You gave up on me! Ooh, that's rude. Is that the sort of man I am now? Am I rude? Rude and not ginger. I don't want to go. People assume that time is a strict progression of cause-and-effect... but actually, from a non-linear, non-subjective viewpoint, it's more like a big ball of wibbly-wobbly... timey-wimey... stuff. I'll tell you what, then: don't...step on any butterflies. What have butterflies ever done to you?</p>
+              <p>Oh, yes. Harmless is just the word: that's why I like it! Doesn't kill, doesn't wound, doesn't maim. But I'll tell you what it does do: it is very good at opening doors! Yeah? Well I'm the Lord of Time. Sweet, maybe... Passionate, I suppose... But don't ever mistake that for nice. What? What?! WHAT?! Don't you think she looks tired? There was a war. A Time War. The Last Great Time War. My people fought a race called the Daleks, for the sake of all creation. And they lost. We lost. Everyone lost. They're all gone now. My family. My friends. Even that sky.</p>
+            </div>
+          </div>
+          <div class='grid'>
+            <div class='col'>
+              <button class='readMore'>Read More</button>
+            </div>
+          </div>
         </div>
       </div>
       <div class='talentCalculator'>
         <div class='talentCalculatorHeader'>
           <p>TitanStar Legends - Rune Mastery Loadout Talent Calculator 9000
         </div>
-        <div class='talentTree'>
-          <div class='talentRow'>
-            <div class='rowTitle'>Talent Path 1</div>
-            <img class='talentOne' src='assets/Transparent.gif' active='false' position='0'></img><!--
-            --><div class='path'></div><!--
-            --><img class='talentTwo' src='assets/Transparent.gif' active='false' position='-50'></img><!--
-            --><div class='path'></div><!--
-            --><img class='talentThree' src='assets/Transparent.gif' active='false' position='-100'></img><!--
-            --><div class='path'></div><!--
-            --><img class='talentFour' src='assets/Transparent.gif' active='false' position='-150'></img>
+        <div class='grid'>
+          <div class='talentTree'>
+            <div class='talentRow'>
+              <div class='rowTitle'>Talent Path 1</div>
+              <img class='talentOne' src='assets/Transparent.gif' active='false' position='0'></img><!--
+              --><div class='path'></div><!--
+              --><img class='talentTwo' src='assets/Transparent.gif' active='false' position='-50'></img><!--
+              --><div class='path'></div><!--
+              --><img class='talentThree' src='assets/Transparent.gif' active='false' position='-100'></img><!--
+              --><div class='path'></div><!--
+              --><img class='talentFour' src='assets/Transparent.gif' active='false' position='-150'></img>
+            </div>
+            <div class='talentRow'>
+              <span class='rowTitle'>Talent Path 2</span>
+              <img class='talentFive' src='assets/Transparent.gif' active='false' position='-200'></img><!--
+              --><div class='path'></div><!--
+              --><img class='talentSix' src='assets/Transparent.gif' active='false' position='-250'></img><!--
+              --><div class='path'></div><!--
+              --><img class='talentSeven' src='assets/Transparent.gif' active='false' position='-300'></img><!--
+              --><div class='path'></div><!--
+              --><img class='talentEight' src='assets/Transparent.gif' active='false' position='-350'></img>
+            </div>
           </div>
-          <div class='talentRow'>
-            <span class='rowTitle'>Talent Path 2</span>
-            <img class='talentFive' src='assets/Transparent.gif' active='false' position='-200'></img><!--
-            --><div class='path'></div><!--
-            --><img class='talentSix' src='assets/Transparent.gif' active='false' position='-250'></img><!--
-            --><div class='path'></div><!--
-            --><img class='talentSeven' src='assets/Transparent.gif' active='false' position='-300'></img><!--
-            --><div class='path'></div><!--
-            --><img class='talentEight' src='assets/Transparent.gif' active='false' position='-350'></img>
+          <div class='activePoints'>
+            <span><span class='talentPoints'></span> / 6</span>
+            <div class='pointsSpent'>Points Spent</div>
           </div>
-          <span class='talentPoints'></span>
         </div>
       </div>
       <div class='footer'>
-        <ul class='footerLinks'>
-          <a>Snowflakes</a>
-          <a>Magnets</a>
-          <a class='liquids'>Liquids</a>
-        </ul>
-        <p>Curse-Front-End Design Challenge - Copyright 2017</p>
-        <span class='socialIcons'>
-          <a href='#'><img class='twitter socialButton' src='assets/Transparent.gif'></img></a>
-          <a href='#'><img class='facebook socialButton' src='assets/Transparent.gif'></img></a>
-          <a href='#'><img class='youtube socialButton' src='assets/Transparent.gif' ></img></a>
-        </span>
+        <div class='grid'>
+          <div class='col'>
+            <ul>
+              <li>Snowflakes</li>
+              <li>Magnets</li>
+              <li>Liquids</li>
+            </ul>
+            <div class='legal'><p>Curse-Front-End Design Challenge - Copyright 2017</p></div>
+          </div>
+          <div class='col'>
+            <div class='socialIcons'>
+              <a href='#'><img class='twitter socialButton' src='assets/Transparent.gif'></img></a>
+              <a href='#'><img class='facebook socialButton' src='assets/Transparent.gif'></img></a>
+              <a href='#'><img class='youtube socialButton' src='assets/Transparent.gif' ></img></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

@@ -1,4 +1,7 @@
 $font: 'Open Sans', sans-serif
+$sectionPadding: 17px
+$sectionTopPadding: 0px
+
 
 html
   height: 100%
@@ -19,18 +22,13 @@ body
       background-color: #1d1d1f
       margin-bottom: 20px
       border-bottom: 6px solid #2d3b48
+      
+      .navTabs
+        list-style-type: none
 
-      .dropDownMenu:hover .dropdown 
-        display: block
+        li 
+          display: inline
 
-      .dropdown
-        display: none
-        position: absolute
-        z-index: 1
-
-        a 
-          display: block
-    
     .header 
       .socialIcons
         float: right
@@ -59,32 +57,52 @@ body
         background-image: url("./../assets/news-bg.png")
         font-size: 14px
         color: #cfcfcf
-        padding: 10px
+        padding: $sectionPadding
+        padding-top: $sectionTopPadding
         border: 1px solid #181b20
+        text-align: justify
       
       .readMore
         float: right
+        border-radius: 2px
+        border: none
+        background: #52789d
+        margin: auto
+        color: #f8eff0
+        height: 30px
+        font-family: "Open Sans", sans-serif
+        width: 99px
 
     .talentCalculator
       border: 1px solid #181b20
-      padding: 10px
+      padding: $sectionPadding
+      padding-top: $sectionTopPadding
       background-image: url('./../assets/talent-calc-bg.png')
       margin-bottom: 20px
 
       .talentCalculatorHeader
         width: 965px
         height: 43px
+        margin: auto
         text-align: center
         color: #ffffff
         font-size: 25px
         font-weight: 600
-      
+        background-color: rgba(26, 27, 29, 0.5)
+
+        p
+          padding: 3px
+
       .talentTree
         padding-top: 50px
+        flex: 1
+
         .talentRow
           height: 100px
+          
           .rowTitle
             display: inline-block
+
           img
             border: 4px solid transparent
             -moz-border-image: -moz-linear-gradient(top, #4b4b4b 50%, #393939 25%, #494949 100%)
@@ -92,6 +110,7 @@ body
             border-image: linear-gradient(to bottom, #4b4b4b 50%, #393939 25%, #494949 100%)
             border-image-slice: 1 !important
             margin-bottom: -22px
+
           .path 
             height: 12px
             width: 90px
@@ -99,28 +118,65 @@ body
             background: #1c1d1f
             border-bottom: 1px solid #272729
             border-top: 1px solid #272729
-            
+
+      .activePoints
+        width: 176px
+        height: 90px
+        text-align: center
+        margin-right: 60px 
+        border: 1px solid #161719
+        background: rgba(9, 10, 12, 0.5)
+        font-size: 23px
+
+        .pointsSpent
+          color: #56718e
+
     .footer
       background-color: #141517
       border-top: 1px solid #181b20
+      padding: $sectionPadding
+      padding-top: $sectionTopPadding
 
       ul
-        margin-left: -30px
-        a
-          display: inline
-          padding-right: 20px
-        a:after
-          content: " "
-          height: 16px
-          width: 1px
-          background: #aeaeae
-          position: absolute
-          margin-left: 10px
-          margin-top: 3px
-          margin-right: 10px
-        .liquids:after
-          display: none
+        padding: 0
+        li
+          border-right: 1px solid red
+          padding: 0 15px
+          display: inline-block
+        li:last-child 
+          border-right: 0
+
+      .legal
+        color: #7c7c7e
+        font-size: 13px
+      p
+        margin: 0
         
+.grid 
+  display: flex 
+  justify-content: center 
+  align-items: center
+
+.col
+  flex: 1
+
+.socialIcons
+  float: right
+
+.snowFlake
+  background: url('./../assets/nav-icons-sprite.png') no-repeat 0 0
+  width: 23px
+  height: 23px
+
+.magnets 
+  background: url('./../assets/nav-icons-sprite.png') no-repeat -25px -1px
+  width: 20px
+  height: 21px
+
+.liquids
+  background: url('./../assets/nav-icons-sprite.png') no-repeat -47px 0px
+  width: 22px
+  height: 23px
 .twitter
   background: url('./../assets/social-icons-sprite.png') no-repeat 1% 54.545%
   width: 27px

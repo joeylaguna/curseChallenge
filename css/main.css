@@ -15,14 +15,10 @@ body {
       background-color: #1d1d1f;
       margin-bottom: 20px;
       border-bottom: 6px solid #2d3b48; }
-      body .container .navBar .dropDownMenu:hover .dropdown {
-        display: block; }
-      body .container .navBar .dropdown {
-        display: none;
-        position: absolute;
-        z-index: 1; }
-        body .container .navBar .dropdown a {
-          display: block; }
+      body .container .navBar .navTabs {
+        list-style-type: none; }
+        body .container .navBar .navTabs li {
+          display: inline; }
     body .container .header .socialIcons {
       float: right; }
     body .container .header .search {
@@ -45,24 +41,40 @@ body {
         background-image: url("./../assets/news-bg.png");
         font-size: 14px;
         color: #cfcfcf;
-        padding: 10px;
-        border: 1px solid #181b20; }
+        padding: 17px;
+        padding-top: 0px;
+        border: 1px solid #181b20;
+        text-align: justify; }
       body .container .news .readMore {
-        float: right; }
+        float: right;
+        border-radius: 2px;
+        border: none;
+        background: #52789d;
+        margin: auto;
+        color: #f8eff0;
+        height: 30px;
+        font-family: "Open Sans", sans-serif;
+        width: 99px; }
     body .container .talentCalculator {
       border: 1px solid #181b20;
-      padding: 10px;
+      padding: 17px;
+      padding-top: 0px;
       background-image: url("./../assets/talent-calc-bg.png");
       margin-bottom: 20px; }
       body .container .talentCalculator .talentCalculatorHeader {
         width: 965px;
         height: 43px;
+        margin: auto;
         text-align: center;
         color: #ffffff;
         font-size: 25px;
-        font-weight: 600; }
+        font-weight: 600;
+        background-color: rgba(26, 27, 29, 0.5); }
+        body .container .talentCalculator .talentCalculatorHeader p {
+          padding: 3px; }
       body .container .talentCalculator .talentTree {
-        padding-top: 50px; }
+        padding-top: 50px;
+        flex: 1; }
         body .container .talentCalculator .talentTree .talentRow {
           height: 100px; }
           body .container .talentCalculator .talentTree .talentRow .rowTitle {
@@ -81,25 +93,60 @@ body {
             background: #1c1d1f;
             border-bottom: 1px solid #272729;
             border-top: 1px solid #272729; }
+      body .container .talentCalculator .activePoints {
+        width: 176px;
+        height: 90px;
+        text-align: center;
+        margin-right: 60px;
+        border: 1px solid #161719;
+        background: rgba(9, 10, 12, 0.5);
+        font-size: 23px; }
+        body .container .talentCalculator .activePoints .pointsSpent {
+          color: #56718e; }
     body .container .footer {
       background-color: #141517;
-      border-top: 1px solid #181b20; }
+      border-top: 1px solid #181b20;
+      padding: 17px;
+      padding-top: 0px; }
       body .container .footer ul {
-        margin-left: -30px; }
-        body .container .footer ul a {
-          display: inline;
-          padding-right: 20px; }
-        body .container .footer ul a:after {
-          content: " ";
-          height: 16px;
-          width: 1px;
-          background: #aeaeae;
-          position: absolute;
-          margin-left: 10px;
-          margin-top: 3px;
-          margin-right: 10px; }
-        body .container .footer ul .liquids:after {
-          display: none; }
+        padding: 0; }
+        body .container .footer ul li {
+          border-right: 1px solid red;
+          padding: 0 15px;
+          display: inline-block; }
+        body .container .footer ul li:last-child {
+          border-right: 0; }
+      body .container .footer .legal {
+        color: #7c7c7e;
+        font-size: 13px; }
+      body .container .footer p {
+        margin: 0; }
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.col {
+  flex: 1; }
+
+.socialIcons {
+  float: right; }
+
+.snowFlake {
+  background: url("./../assets/nav-icons-sprite.png") no-repeat 0 0;
+  width: 23px;
+  height: 23px; }
+
+.magnets {
+  background: url("./../assets/nav-icons-sprite.png") no-repeat -25px -1px;
+  width: 20px;
+  height: 21px; }
+
+.liquids {
+  background: url("./../assets/nav-icons-sprite.png") no-repeat -47px 0px;
+  width: 22px;
+  height: 23px; }
 
 .twitter {
   background: url("./../assets/social-icons-sprite.png") no-repeat 1% 54.545%;

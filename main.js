@@ -7,11 +7,16 @@ window.onload = () => {
   const toggleTalent = (talent, active) => {
     //grabs the x cord position of the sprite
     let positions = getComputedStyle(talent).backgroundPosition.split(' ');
-    talent.style['borderImage'] = '-webkit-linear-gradient(top, rgb(110, 174, 236) 54%, rgb(48, 68, 101) 25%, rgb(100, 162, 223) 100%)';
+    //talent.style['borderImage'] = '-webkit-linear-gradient(top, rgb(110, 174, 236) 54%, rgb(48, 68, 101) 25%, rgb(100, 162, 223) 100%)';
+    talent.setAttribute('style', 'border-image: -webkit-linear-gradient(top, rgb(110, 174, 236) 54%, rgb(48, 68, 101) 25%, rgb(100, 162, 223) 100%)')
+    console.log(talent.style);
     //toggle off talent
     if (active === true) {
       //toggle on talent
       positions[3] = '-50px';
+      talent.setAttribute('style', 'box-shadow: 0px 0px 7px 0px rgba(255,255,255,1)');
+      talent.setAttribute('style', 'border-image: -webkit-linear-gradient(top, rgb(110, 174, 236) 54%, rgb(48, 68, 101) 25%, rgb(100, 162, 223) 100%)');
+      console.log(talent.style)
       return positions.join(' ');
     } else {
       //target off talent
